@@ -722,7 +722,13 @@ are ultimately combined into several different files (in the */build* directory)
 [npm][] and [Grunt][]:
 
 ```sh
+# Install Grunt globally
+npm install -g grunt-cli
+
+# Install dependencies
 npm install
+
+# Start local development environment
 grunt
 ```
 
